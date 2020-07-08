@@ -15,7 +15,6 @@ function usersReducer (state= initialState, action){
             return {
                 ...state,
                 users:action.playload,
-                tabIndex:0
             }
             case ID_USER:
                 return {
