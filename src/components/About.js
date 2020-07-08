@@ -1,7 +1,7 @@
 import React from 'react'
 
 function  About(){
-    return <div>
+    return <div className="tabs">
         <h1>About Component</h1>
     </div>
 }

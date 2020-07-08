@@ -1,7 +1,7 @@
 import React from 'react'
 
 function  Settings(){
-    return <div>
+    return <div className="tabs">
         <h1>Settings Component</h1>
     </div>
 }

@@ -28,7 +28,7 @@ const Header = () => (
         <Navbar expand="lg">
             <i className="fa fa-camera-retro fa-2x"></i>
             <Navbar.Brand href="/"><strong className='text-danger'>
-                KGISLdfsghdgfh</strong></Navbar.Brand>
+                KGISL</strong></Navbar.Brand>
 
             <Nav className="ml-auto">
                 <Nav.Item><Nav.Link href="/">
