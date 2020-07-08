@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+  margin-left:75px!important;
+}
+.userList{
+  
+  margin-left:75px!important;
+  padding:10px;
+  width:calc(100% - 75px)!important;
+ 
+
+}
+table, td, th {
+  border: 1px solid black;
+  padding:4px
+}
+body{
+  background-color:  rgb(219, 224, 224)!important;
+}
+
+table {
+  border-collapse: collapse;
+  width: 86%;
+  margin:2% 7% 0 7%;
+  border: 2px solid #ddd;
+ 
+}
+td,th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+tr:hover {
+  background-color: rgb(96, 162, 206);
+}
+.react-tabs__tab:hover{
+  background: rgb(96, 162, 206);
+}
+tr:nth-child(even){
+  background-color: whitesmoke;
+}
+ul{
+    margin-block-end: 0em!important;
+
+}
+.react-tabs__tab-panel--selected {
+  display: block;
+  padding:15px;
+  border: 1px solid rgb(189, 186, 186);
+  border-top:0px!important;
+  top: 0px!important;
+  background-color: white;
+}
+
+th {
+  height: 50px;
+  background-color:lightgray;
+
+}
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid gray;
+  border-radius: 5px;
+}
+.sbt-btn{
+  width:100px!important;
+  margin-left: calc(50% - 20px);
+}
