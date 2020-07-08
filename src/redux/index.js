@@ -1,1 +1,1 @@
-export {fetchUsers, setLoading} from './actions'
+export {fetchUsers,viewUser, setTab} from './actions'

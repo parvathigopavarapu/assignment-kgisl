@@ -3,7 +3,7 @@ import { Nav, Navbar } from 'react-bootstrap';
 import styled from 'styled-components';
 
 const Styles = styled.div`
-.navbar {background-color:whitesmoke;
+.navbar {background-color:rgb(67, 80, 100);
 left:75px!important;
 width:calc(100% - 75px)!important;
 }

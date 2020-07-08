@@ -1,11 +1,13 @@
 import {
     FETCH_USERS,
-    LOADING
+    ID_USER,
+    SET_TAB
 } from './actionTypes'
 
 const initialState = {
     users:[],
-    loading:false
+    user:'',
+    tabIndex:0
 };
 function usersReducer (state= initialState, action){
     switch (action.type) {
@@ -13,9 +15,20 @@ function usersReducer (state= initialState, action){
             return {
                 ...state,
                 users:action.playload,
-                loading:false
+                tabIndex:0
             }
-    
+            case ID_USER:
+                return {
+                    ...state,
+                    user:action.playload,
+                    tabIndex:1
+                }
+                case SET_TAB:
+                return {
+                    ...state,
+                    tabIndex:action.playload
+                }
+        
         default:
             return state;
     }

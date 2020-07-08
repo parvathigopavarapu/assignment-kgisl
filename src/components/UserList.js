@@ -20,7 +20,7 @@ class UserList extends React.Component{
                         return (
                             <User
                                 key={user.id}
-                                user={user} onClick={} />
+                                user={user}  />
                         );
 
                     }) : null
@@ -32,4 +32,5 @@ class UserList extends React.Component{
         </React.Fragment>
     }
 }
+
 export default UserList;

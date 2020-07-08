@@ -10,12 +10,16 @@
  
 
 }
+.image{
+  width:100px;
+  height:140px;
+}
 table, td, th {
   border: 1px solid black;
   padding:4px
 }
 body{
-  background-color:  rgb(219, 224, 224)!important;
+  background-color:  rgb(219, 221, 224)!important;
 }
 
 table {
